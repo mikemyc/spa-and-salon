@@ -3,3 +3,77 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #D51380;
+  font-size: 1.5rem;
+}
+
+.nav {
+  background-color: #F7C0C6;
+  padding: 3em;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10em;
+}
+
+.hero__container {
+  background-image: url("../../../images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+.hero__container__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__container__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-top: 6.5em;
+}
+
+.hero__card {
+  background-color: #DE2184;
+  width: 40%;
+  padding: 2em;
+  height: 50%;
+  position: absolute;
+  top: 80%;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  left: 30%;
+}
+
+.hero__btn {
+  width: 30%;
+  padding: 0.5em;
+  font-size: 1.5rem;
+  margin-left: 40%;
+  border: none;
+  border-radius: 10px;
+  color: #DE2184;
+}

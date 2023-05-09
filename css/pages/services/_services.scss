@@ -1,0 +1,11 @@
+@use "../../utilities/mixin" as *;
+.services{
+    background-image: url("../../../images/istockphoto-1339268647.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+    @include flex-col(center, center);
+    color: #de2184;
+    font-size: 4rem;
+}

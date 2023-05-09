@@ -2,17 +2,37 @@
 
 .nav{
     background-color: #F7C0C6;
-    padding: 3em;
+    padding: 5em;
     &__container{
         @include flex(space-between, center);
     }
     &__right{
         ul{
             @include flex(space-between, center);
-            gap: 10em;
-           
+            gap: 2em;
+  
+            li{
+    
+                a{
+                    color: #DE2184;
+                    padding: 1em;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                        border-radius: 50%;
+                        
+                    }
+                }
+                
+            }
         }
-    }
-}
+                }
+             
+            
+}  
+            
+            
+                      
+
 
 

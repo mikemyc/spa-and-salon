@@ -1,6 +1,13 @@
-@mixin flex($justify, $align,$direction:row){
+@mixin flex($justify, $align, $direction:row){
     display: flex;
     justify-content: $justify;
     align-items: $align;
+}
+
+@mixin flex-col($justify, $align, $direction:column){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
 }
 

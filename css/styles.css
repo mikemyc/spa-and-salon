@@ -87,6 +87,7 @@ a {
   color: #DE2184;
 }
 
+mike
 .hero__container__container {
   display: flex;
   margin: 3em;
@@ -105,4 +106,55 @@ a {
 .hero__Consultation h1, p {
   text-align: center;
   padding: 1em;
+=======
+.hero__about {
+  background-image: url("../../../images/About.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__about--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero__about--content h1 {
+  color: #de2184;
+  font-size: 4rem;
+}
+
+.hero__about--content p {
+  font-size: 2rem;
+  color: #000;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  gap: 1em;
+}
+.main__content {
+  border-radius: 5px;
+  padding: 5em;
+  line-height: 2em;
+  box-shadow: 2px 2px 4px 4px darkgray;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__content {
+  padding: 2em;
+salon
 }

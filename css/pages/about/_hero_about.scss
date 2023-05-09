@@ -3,8 +3,8 @@
 .hero__about{
     // background-image: url("../../../images/pexels-delbeautybox-853427.jpg");
     background-image:
-    linear-gradient(rgba(245, 246, 252, 0.52), rgba(230, 102, 198, 0.73)),
-    url("../../../images/pexels-delbeautybox-853427.jpg");
+    // linear-gradient(rgba(245, 246, 252, 0.52), rgba(230, 102, 198, 0.73)),
+    url("../../../images/About.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -15,15 +15,36 @@
 
     } 
     }
+
+    .hero__about--content h1 {
+        color: #de2184;
+        font-size: 4rem;
+    }
+    .hero__about--content p{
+        font-size: 2rem;
+        color: #000
+    }
     .main{
         @include flex(space-between, center);
-        padding: 5em;
-        gap: 2em;
+        padding: 2em;
+        gap: 1em;
        
         &__content{
-            border: 1px solid rgb(121, 115, 115);
-            padding: 2em;
-            margin-bottom: 2em;
-            background-color: lightgray;
+            border-radius: 5px;
+            // padding: 2em;
+            // margin-bottom: 2em;
+          padding: 5em;
+          line-height: 2em;
+          box-shadow: 2px 2px 4px 4px darkgray
         }
+
+    }
+    .footer{
+        @include flex(center, center);
+        &__content{
+            padding: 2em;
+        }
+        
+        
+     
     }

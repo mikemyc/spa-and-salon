@@ -1,4 +1,5 @@
 @use "./utilities/base";
 @use "./pages/layout/nav";
 @use "./pages/home/_hero";
-@use "./pages/about/_hero_about";
+@use "./pages/about/hero_about";
+@use "../css/utilities/mixin";

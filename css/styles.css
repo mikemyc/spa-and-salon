@@ -4,10 +4,108 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #D51380;
+  font-size: 1.5rem;
+}
+
+.nav {
+  background-color: #F7C0C6;
+  padding: 3em;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10em;
+}
+
+.hero__container {
+  background-image: url("../../../images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+.hero__container__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__container__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-top: 6.5em;
+}
+
+.hero__card {
+  background-color: #DE2184;
+  width: 40%;
+  padding: 2em;
+  height: 50%;
+  position: absolute;
+  top: 80%;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  left: 30%;
+}
+
+.hero__btn {
+  width: 30%;
+  padding: 0.5em;
+  font-size: 1.5rem;
+  margin-left: 40%;
+  border: none;
+  border-radius: 10px;
+  color: #DE2184;
+}
+
 .hero__about {
-  background-image: url("../../../images/pexels-delbeautybox-853427.jpg");
+  background-image: linear-gradient(rgba(245, 246, 252, 0.52), rgba(230, 102, 198, 0.73)), url("../../../images/pexels-delbeautybox-853427.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 70vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__about--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em;
+  gap: 2em;
+}
+.main__content {
+  border: 1px solid rgb(121, 115, 115);
+  padding: 2em;
+  margin-bottom: 2em;
+  background-color: lightgray;
 }

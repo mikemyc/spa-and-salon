@@ -8,10 +8,7 @@
     background-position: center center;
     height: 90vh;
     @include flex-col(center, center);
-    &--content{
-        @include flex-col(center, center)
-
-    } 
+     
     }
 
     .hero__about--content h1 {

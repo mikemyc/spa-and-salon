@@ -1,5 +1,9 @@
 @use "../../utilities/mixin" as *;
-.services{
+body{
+    background-color: azure;
+}
+.services {
+  &__header {
     background-image: url("../../../images/istockphoto-1339268647.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,4 +12,37 @@
     @include flex-col(center, center);
     color: #de2184;
     font-size: 4rem;
+  }
+}
+.services__spa {
+  padding: 2em;
+}
+h2,
+h3 {
+  padding: 2em;
+}
+.spaa {
+  gap: 2em;
+  @include flex(flex-start, center);
+  line-height: 2em;
+  p {
+    margin: 1em;
+  }
+}
+.spa {
+  box-shadow: 2px 2px 4px 4px darkgray;
+}
+.saalon {
+  @include flex(flex-start, center);
+  gap: 2em;
+  p {
+    margin: 1em;
+  }
+}
+.salon {
+  line-height: 2em;
+  box-shadow: 2px 2px 4px 4px darkgray;
+}
+h2{
+    font-size: 2rem;
 }

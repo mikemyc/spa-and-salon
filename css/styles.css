@@ -87,7 +87,6 @@ a {
   color: #DE2184;
 }
 
-mike
 .hero__container__container {
   display: flex;
   margin: 3em;
@@ -106,7 +105,8 @@ mike
 .hero__Consultation h1, p {
   text-align: center;
   padding: 1em;
-=======
+}
+
 .hero__about {
   background-image: url("../../../images/About.jpg");
   background-repeat: no-repeat;
@@ -156,5 +156,112 @@ mike
 }
 .footer__content {
   padding: 2em;
-salon
+}
+
+body {
+  padding: 5em;
+  background-image: url("../../../images/appointment.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.book__h1 {
+  font-size: 3rem;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+.enter__name {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  font-size: 1.5rem;
+  border: none;
+  margin-top: 3em;
+}
+
+.enter__email {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  font-size: 1.5rem;
+  margin-top: 3em;
+  border: none;
+}
+
+.phone__number {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  font-size: 1.5rem;
+  margin-top: 3em;
+  border: none;
+}
+
+.datetime__local {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  width: 75%;
+  font-size: 1.5rem;
+  margin-top: 3em;
+  border: none;
+}
+
+.select__select1 {
+  padding: 1.5em;
+  width: 100%;
+  margin-top: 2em;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 2px 2px 4px black;
+}
+
+.text__area {
+  width: 100%;
+}
+
+.same__class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gender {
+  font-size: 1.5rem;
+}
+
+.gender__holder {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin: 1em;
+}
+
+.submit__btn input {
+  background-color: #fff;
+  width: 30%;
+  padding: 1em;
+  color: #DE2184;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 2em;
+}
+
+.choose__gender {
+  font-size: 2rem;
+  margin-top: 2em;
+  color: #DE2184;
 }

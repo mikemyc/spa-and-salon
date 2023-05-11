@@ -151,6 +151,7 @@ a {
   padding: 2em;
 }
 
+<<<<<<< HEAD
 body {
   background-color: azure;
 }
@@ -220,12 +221,19 @@ body {
   background-size: cover;
 }
 
+=======
+>>>>>>> 520037c0de8d866e59d6cccfc1ff91cb0554618c
 .form-general {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   width: 70%;
+  padding: 5em;
+  background-image: url("../../../images/appointment.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .book__h1 {

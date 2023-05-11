@@ -1,0 +1,36 @@
+@use "../../utilities/mixin" as *;
+
+
+
+
+.main__contact{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: center;
+    border: 2px solid black;
+    width:  80%;
+    margin: 0 auto;
+}
+
+.main__contact__right__email input{
+    width: 100%;
+}
+
+.contact__text{
+    margin-top: 2em;
+}
+
+.button__contact{
+    padding: 1em;
+    width: 30%;
+    margin-top:2em ;
+}
+.contact__h1{
+    text-align: center;
+}
+.dispaly__flex{
+    display: flex;
+    
+    margin-top: 2em;
+}

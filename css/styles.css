@@ -101,8 +101,7 @@ a {
   padding: 1em;
   font-size: 1.5rem;
 }
-
-.hero__Consultation h1, p {
+.hero__Consultation h1, .hero__Consultation p {
   text-align: center;
   padding: 1em;
 }
@@ -112,13 +111,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.hero__about--content {
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +149,76 @@ a {
 }
 .footer__content {
   padding: 2em;
+}
+
+
+body {
+  background-color: azure;
+}
+
+.services__header {
+  background-image: url("../../../images/istockphoto-1339268647.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #de2184;
+  font-size: 4rem;
+}
+
+.services__spa {
+  padding: 2em;
+}
+
+h2,
+h3 {
+  padding: 2em;
+}
+
+.spaa {
+  gap: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 2em;
+}
+.spaa p {
+  margin: 1em;
+}
+
+.spa {
+  box-shadow: 2px 2px 4px 4px darkgray;
+}
+
+.saalon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
+}
+.saalon p {
+  margin: 1em;
+}
+
+.salon {
+  line-height: 2em;
+  box-shadow: 2px 2px 4px 4px darkgray;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+body {
+  padding: 5em;
+  background-image: url("../../../images/appointment.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-general {

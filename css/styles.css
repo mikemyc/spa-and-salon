@@ -106,6 +106,7 @@ a {
   padding: 1em;
 }
 
+
 .nav {
   background-color: #F7C0C6;
   padding: 5em;
@@ -129,6 +130,43 @@ a {
   background-color: black;
   color: white;
   border-radius: 50%;
+.make__appointment {
+  background-color: #DE2184;
+  width: 50%;
+  margin: 0 auto;
+  height: 20vh;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.make__appointment p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.4em;
+}
+
+.make__appointment button {
+  margin-left: 40%;
+  padding: 1em;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__container {
+  background-color: #F7C0C6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.Company {
+  padding: 3em;
+  text-align: center;
+
 }
 
 .hero__about {
@@ -174,6 +212,11 @@ a {
 }
 .footer__content {
   padding: 2em;
+}
+
+
+body {
+  background-color: azure;
 }
 
 .services__header {
@@ -336,7 +379,7 @@ h2 {
   background-color: #fff;
   width: 30%;
   padding: 1em;
-  color: #DE2184;
+  color: #de2184;
   font-size: 1rem;
   text-align: center;
   border-radius: 5px;
@@ -347,5 +390,38 @@ h2 {
 .choose__gender {
   font-size: 2rem;
   margin-top: 2em;
-  color: #DE2184;
+  color: #de2184;
+}
+
+.main__contact {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  justify-content: center;
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__contact__right__email input {
+  width: 100%;
+}
+
+.contact__text {
+  margin-top: 2em;
+}
+
+.button__contact {
+  padding: 1em;
+  width: 30%;
+  margin-top: 2em;
+}
+
+.contact__h1 {
+  text-align: center;
+}
+
+.dispaly__flex {
+  display: flex;
+  margin-top: 2em;
 }

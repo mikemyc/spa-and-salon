@@ -1,21 +1,17 @@
 @use "../../utilities/mixin" as *;
 
-body{
-    padding: 5em;
-    background-image: url("../../../images/appointment.jpg");
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size: cover
-    
-    
-    
 
-}
 
 .form-general{
     @include flex(center, center);
     margin: 0 auto;
     width: 70%;
+
+    padding: 5em;
+    background-image: url("../../../images/appointment.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .book__h1{
     font-size: 3rem;

@@ -18,6 +18,7 @@
     
     }
 
+  
     .hero__card{
         background-color: #DE2184;
         width: 40%;
@@ -62,9 +63,57 @@
         
         
     }
+    // .book__btn{
+    //     display: flex;
+    //     text-align: center;
+    //     margin: 0 auto;
+    //     font-size: 1.5rem;
+    //     padding: 1em;
+    //     border-radius: 20px;
 
+    // }
+
+    .make__appointment{
+        background-color: #DE2184;
+        width: 50%;
+        margin: 0 auto;
+        height: 20vh;
+        border-radius: 15px;
+        color: #fff;
+
+    }
+
+    .make__appointment p{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1.4em;
+    }
+
+    .make__appointment button{
+        margin-left: 40%;
+        padding: 1em;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+    
+.footer__container{
+    background-color: #F7C0C6;
+    @include flex(space-between, center);
+    // padding: 5em;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3em;
     
 
+    
+    
+}
+.Company{
+    padding: 3em;
+    text-align: center;
+    
+}
 
 
 

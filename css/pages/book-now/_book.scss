@@ -1,128 +1,102 @@
 @use "../../utilities/mixin" as *;
 
+.form-general {
+  @include flex(center, center);
+  margin: 0 auto;
+  width: 70%;
 
-
-.form-general{
-    @include flex(center, center);
-    margin: 0 auto;
-    width: 70%;
-
-    padding: 5em;
-    background-image: url("../../../images/appointment.jpg");
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding: 5em;
+  background-image: url("../../../images/appointment.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.book__h1{
-    font-size: 3rem;
-    padding: 1em;
-    text-align: center;
-    color:white;
+.book__h1 {
+  font-size: 3rem;
+  padding: 1em;
+  text-align: center;
+  color: white;
 }
-.enter__name{
-    padding: 1em;
-    box-shadow: 2px 2px 4px  black;
-    background-color: white;
-    
-    font-size: 1.5rem;
-    border: none;
-    margin-top: 3em;
-    
+.enter__name {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
 
-    
-
+  font-size: 1.5rem;
+  border: none;
+  margin-top: 3em;
 }
-.enter__email{
-    padding: 1em;
-    box-shadow: 2px 2px 4px  black;
-    background-color: white;
-    
-    font-size: 1.5rem;
-    margin-top: 3em;
-    border: none;
+.enter__email {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
 
-
+  font-size: 1.5rem;
+  margin-top: 3em;
+  border: none;
 }
-.phone__number{
-    padding: 1em;
-    box-shadow: 2px 2px 4px  black;
-    background-color: white;
-    
-    font-size: 1.5rem;
-    margin-top: 3em;
-    border: none;
+.phone__number {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
 
-    
-
+  font-size: 1.5rem;
+  margin-top: 3em;
+  border: none;
 }
-.datetime__local{
-    padding: 1em;
-    box-shadow: 2px 2px 4px  black;
-    background-color: white;
-    width: 75%;
-    font-size: 1.5rem;
-    margin-top: 3em;
-    border: none;
-
-
-    
-
+.datetime__local {
+  padding: 1em;
+  box-shadow: 2px 2px 4px black;
+  background-color: white;
+  width: 75%;
+  font-size: 1.5rem;
+  margin-top: 3em;
+  border: none;
 }
-.select__select1{
-    
-    padding: 1.5em;
-    width: 100%;
-    margin-top: 2em;
-    font-size: 1rem;
-    border: none;
-    box-shadow: 2px 2px 4px  black;
-
-    
-
+.select__select1 {
+  padding: 1.5em;
+  width: 100%;
+  margin-top: 2em;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 2px 2px 4px black;
 }
-.text__area{
-    width: 100%;
+.text__area {
+  width: 100%;
 }
-.same__class{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.same__class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.gender{
-    font-size: 1.5rem;
-    
-
+.gender {
+  font-size: 1.5rem;
 }
 
-
-.gender__holder{
-    display: flex;
-    // justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    margin: 1em;
+.gender__holder {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  margin: 1em;
 }
 
-.submit__btn input{
+.submit__btn {
+  input {
     background-color: #fff;
     width: 30%;
     padding: 1em;
-    color: #DE2184;
+    color: #de2184;
     font-size: 1rem;
     text-align: center;
     border-radius: 5px;
     border: none;
     margin-top: 2em;
+  }
 }
-.choose__gender{
-    font-size: 2rem;
-    margin-top: 2em;
-    color: #DE2184;
+.choose__gender {
+  font-size: 2rem;
+  margin-top: 2em;
+  color: #de2184;
 }
-
-
-
-
-
-        

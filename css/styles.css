@@ -106,6 +106,30 @@ a {
   padding: 1em;
 }
 
+
+.nav {
+  background-color: #F7C0C6;
+  padding: 5em;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+.nav__right ul li a {
+  color: #DE2184;
+  padding: 1em;
+}
+.nav__right ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
 .make__appointment {
   background-color: #DE2184;
   width: 50%;
@@ -142,6 +166,7 @@ a {
 .Company {
   padding: 3em;
   text-align: center;
+
 }
 
 .hero__about {
@@ -189,6 +214,7 @@ a {
   padding: 2em;
 }
 
+
 body {
   background-color: azure;
 }
@@ -205,6 +231,12 @@ body {
   flex-direction: column;
   color: #de2184;
   font-size: 4rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services__spa {
@@ -227,8 +259,14 @@ h3 {
   margin: 1em;
 }
 
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .spa {
-  box-shadow: 2px 2px 4px 4px darkgray;
+  box-shadow: 2px 2px 4px 4px darkgrey;
 }
 
 .saalon {
@@ -243,7 +281,7 @@ h3 {
 
 .salon {
   line-height: 2em;
-  box-shadow: 2px 2px 4px 4px darkgray;
+  box-shadow: 2px 2px 4px 4px darkgrey;
 }
 
 h2 {

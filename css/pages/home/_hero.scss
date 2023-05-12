@@ -49,7 +49,10 @@
     }
 
     .hero__container__container1{
-        box-shadow: 2px 2px 4px grey;
+        box-shadow: 4px 4px 7px grey;
+        
+        margin-top: 12em;
+        text-align: center;
     }
     .hero__Consultation{
         margin-top: 8em;
@@ -63,15 +66,6 @@
         
         
     }
-    // .book__btn{
-    //     display: flex;
-    //     text-align: center;
-    //     margin: 0 auto;
-    //     font-size: 1.5rem;
-    //     padding: 1em;
-    //     border-radius: 20px;
-
-    // }
 
     .make__appointment{
         background-color: #DE2184;
@@ -80,6 +74,7 @@
         height: 20vh;
         border-radius: 15px;
         color: #fff;
+        
 
     }
 
@@ -87,6 +82,8 @@
         text-align: center;
         font-size: 1.5rem;
         padding: 1.4em;
+        
+
     }
 
     .make__appointment button{
@@ -95,26 +92,88 @@
         border-radius: 15px;
         border: none;
         cursor: pointer;
+    
     }
     
-.footer__container{
+
+    
+
+ 
+    
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer{
     background-color: #F7C0C6;
-    @include flex(space-between, center);
-    // padding: 5em;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 3em;
+    padding: 70px 0;
+}
+.footer__col{
     
-
-    
+    padding: 0 15px;
+   
+}
+.footer__col h4{
+    font-size: 3rem;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
     
 }
-.Company{
-    padding: 3em;
+.footer__col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer__col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #DE2184;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+.footer__col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+
+} 
+.social__links {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    line-height: 40px;
+    
     text-align: center;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    pad: 2em;
+}
+
+
+.main__footer{
+    gap: 16em;
+    padding: 5em;
+    
+    
+
+}
+.call__us{
+    font-size: 2rem;
+    flex-wrap: nowrap;
+    display: flex   
+}
+.call__us1{
+    @include flex(center,center);
+    color: #DE2184;
+    font-size: 2rem;
     
 }
 
+.social__links{
+    cursor: pointer;
+}
+    
 
 
 

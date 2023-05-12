@@ -106,30 +106,6 @@ a {
   padding: 1em;
 }
 
-
-.nav {
-  background-color: #F7C0C6;
-  padding: 5em;
-}
-.nav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav__right ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2em;
-}
-.nav__right ul li a {
-  color: #DE2184;
-  padding: 1em;
-}
-.nav__right ul li a:hover {
-  background-color: black;
-  color: white;
-  border-radius: 50%;
 .make__appointment {
   background-color: #DE2184;
   width: 50%;
@@ -166,7 +142,31 @@ a {
 .Company {
   padding: 3em;
   text-align: center;
+}
 
+.nav {
+  background-color: #F7C0C6;
+  padding: 5em;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+.nav__right ul li a {
+  color: #DE2184;
+  padding: 1em;
+}
+.nav__right ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
 }
 
 .hero__about {
@@ -212,11 +212,6 @@ a {
 }
 .footer__content {
   padding: 2em;
-}
-
-
-body {
-  background-color: azure;
 }
 
 .services__header {

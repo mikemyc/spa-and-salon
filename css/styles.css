@@ -45,7 +45,7 @@ a {
 }
 
 .hero__container {
-  background-image: url("../../../images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg");
+  background-image: url("https://mikemyc.github.io/spa-and-salon/images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,7 +204,7 @@ a {
 }
 
 .hero__about {
-  background-image: url("../../../images/About.jpg");
+  background-image: url("https://mikemyc.github.io/spa-and-salon/images/About.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -253,7 +253,7 @@ body {
 }
 
 .services__header {
-  background-image: url("../../../images/istockphoto-1339268647.jpg");
+  background-image: url("https://mikemyc.github.io/spa-and-salon/images/istockphoto-1339268647.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -316,7 +316,7 @@ h2 {
   margin: 0 auto;
   width: 70%;
   padding: 5em;
-  background-image: url("../../../images/appointment.jpg");
+  background-image: url("https://mikemyc.github.io/spa-and-salon/images/appointment.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
